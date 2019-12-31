@@ -114,6 +114,24 @@ Item {
     property GCSfx audioEffects
 
     /**
+     * type:GCAudio
+     * The global audio item for background music.
+     *
+     * @sa GCAudio backgroundMusic
+     */
+    property GCAudio backgroundMusic
+
+    /**
+     * type: bool
+     * It tells whether the activity is a musical activity or not(if the activity contains it's own audio effects).
+     *
+     * If the activity is a musical activity, on starting it the background music pauses and when the activity is quit, background music resumes.
+     *
+     * Set it as true if the activity is musical.
+     */
+    property bool isMusicalActivity: false
+
+    /**
      * type:Loading
      * The global loading object.
      *
@@ -121,14 +139,6 @@ Item {
      * @sa Loading
      */
     property Loading loading
-
-    /**
-     * type: bool
-     * This variable stores if the activity is a musical activity.
-     *
-     * If it is a musical activity and the audioEffects is disabled, we temporarily unmute the GCSfx audioEffects for that activity and mute again on exiting it in main.qml.
-     */
-    property bool isMusicalActivity: false
 
     /**
      * Emitted when the user wants to return to the Home/Menu screen.
@@ -201,7 +211,8 @@ Item {
             // Ctrl+M toggle sound
             // We mute / unmute both channels in sync
             ApplicationSettings.isAudioVoicesEnabled = !ApplicationSettings.isAudioVoicesEnabled
-            ApplicationSettings.isAudioEffectsEnabled = !ApplicationSettings.isAudioEffectsEnabled
+            ApplicationSettings.isAudioEffectsEnabled = ApplicationSettings.isAudioVoicesEnabled
+            ApplicationSettings.isBackgroundMusicEnabled = ApplicationSettings.isAudioVoicesEnabled
         } else if (event.modifiers === Qt.ControlModifier &&
                    event.key === Qt.Key_W) {
             // Ctrl+W exit the current activity

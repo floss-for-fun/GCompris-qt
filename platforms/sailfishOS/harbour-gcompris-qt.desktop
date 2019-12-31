@@ -1,6 +1,7 @@
 [Desktop Entry]
 Name=GCompris Educational Game
 Name[ar]=لعبة «فهمت» التعليميّة
+Name[br]=C'hoari kelennadel GCompris
 Name[ca]=Joc educatiu GCompris
 Name[ca@valencia]=Joc educatiu GCompris
 Name[cs]=Výuková hra GCompris
@@ -17,6 +18,7 @@ Name[hi]=जीकोंप्रिस शेक्षणिक खेल
 Name[id]=Permainan Pendidikan GCompris
 Name[it]=Gioco didattico GCompris
 Name[ko]=GCompris 교육용 게임
+Name[mk]=Жикомпри едукативна игра
 Name[ml]=ജികോംപ്രി വിദ്യാഭ്യാസപരമായ കളി
 Name[nl]=Educatief spel GCompris
 Name[nn]=GCompris leik-og-lær-spel
@@ -35,6 +37,7 @@ Name[zh_CN]=GCompris 教育游戏
 Name[zh_TW]=GCompris 教育遊戲
 GenericName=Educational game
 GenericName[ar]=لعبة تعليميّة
+GenericName[br]=C'hoari kelennadel
 GenericName[ca]=Joc educatiu
 GenericName[ca@valencia]=Joc educatiu
 GenericName[cs]=Výuková hra
@@ -52,6 +55,7 @@ GenericName[hi]=शेक्षणिक खेल
 GenericName[id]=Permainan Pendidikan
 GenericName[it]=Gioco didattico
 GenericName[ko]=교육용 게임
+GenericName[mk]=Едукативна игра
 GenericName[ml]=വിദ്യാഭ്യാസപരമായ കളി
 GenericName[nl]=Educatief spel
 GenericName[nn]=Leik-og-lær-spel
@@ -70,6 +74,7 @@ GenericName[zh_CN]=教育游戏
 GenericName[zh_TW]=教育遊戲
 Comment=Multi-Activity Educational game for children 2 to 10
 Comment[ar]=لعبة تعليميّة متعدّدة الأنشطة للأطفال من سنتين إلى ١٠ سنوات
+Comment[br]=C'hoari kelennadel gant oberezhioù a bep seurt evit ar vugale etre 2 ha 10 vloaz
 Comment[ca]=Joc educatiu amb múltiples activitats per a infants de 2 a 10 anys
 Comment[ca@valencia]=Joc educatiu amb múltiples activitats per a infants de 2 a 10 anys
 Comment[de]=Lernspiel mit vielen Aktivitäten für Kinder von 2 bis 10 Jahren
@@ -85,7 +90,8 @@ Comment[hi]=२ से १० वर्ष के बच्चों के ल�
 Comment[id]=GCompris adalah kumpulan permainan kegiatan pendidikan untuk anak umur 2  sampai 10 tahun
 Comment[it]=Gioco didattico multi-attività per bambini da 2 a 10 anni
 Comment[ko]=2-10세 어린이를 위한 다양한 활동이 있는 교육용 게임
-Comment[ml]=2 തൊട്ട് 10 വയസ്സുവരെയുള്ള കുട്ടികൾക്ക് വേണ്ടിയുള്ള വിവിധ-പ്രവർത്തനങ്ങളിലൂടെയുള്ള വിദ്യാഭ്യാസപരമായ കളി
+Comment[mk]=Едукативна игра со повеќе активности за деца од 2 до 10 години
+Comment[ml]=2 മുതൽ 10 വയസ്സുവരെയുള്ള കുട്ടികൾക്ക് വിവിധ പ്രവർത്തനങ്ങളിലൂടെ പഠിക്കാനായുള്ള കളി.
 Comment[nl]=Educatief spel met meerdere activiteiten voor kinderen van 2 tot 10
 Comment[nn]=Leik-og-lærspel med mange aktivitetar – for barn frå 2 til 10 år
 Comment[pl]=Gra edukacyjna z wieloma aktywnościami dla dzieci w wieku od 2 do 10 lat
