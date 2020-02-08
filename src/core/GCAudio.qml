@@ -184,6 +184,7 @@ Item {
             source = ""
             source = file
             files.push(file)
+            silenceTimer.interval = 25
             silenceTimer.start()
         } else {
             files.push(file)
